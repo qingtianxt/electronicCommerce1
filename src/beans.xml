@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="AdminUserDao" class="dao.impl.AdminUserDaoImpl"></bean>
+	<bean id="productTypeDao" class="dao.impl.productTypeDaoImpl"></bean>
+	<bean id="productPropertyDao" class="dao.impl.productPropertyDaoImpl"></bean>
+	<bean id="productOptionDao" class="dao.impl.productOptionDaoImpl"></bean>
+	<bean id="productDao" class="dao.impl.productDaoImpl"></bean>
+	<bean id="userDao" class="dao.impl.userDaoImpl"></bean>
+	<bean id="orderDao" class="dao.impl.orderDaoImpl"></bean>
+	<bean id="orderItemDao" class="dao.impl.orderItemDaoImpl"></bean>
+	<bean id="orderAddressDao" class="dao.impl.orderAddressDaoImpl"></bean>
+
+
+	<bean id="AdminUserService" class="service.impl.AdminUserServiceImpl"></bean>
+	<bean id="productTypeService" class="service.impl.productTypeServiceImpl"></bean>
+	<bean id="productPropertyService" class="service.impl.productPropertyServiceImpl"></bean>
+	<bean id="productOptionService" class="service.impl.productOptionServiceImpl"></bean>
+	<bean id="productService" class="service.impl.productServiceImpl"></bean>
+	<bean id="userService" class="service.impl.userServiceImpl"></bean>
+	<bean id="orderService" class="service.impl.orderServiceImpl"></bean>
+	<bean id="orderItemService" class="service.impl.orderItemServiceImpl"></bean>
+	<bean id="orderAddressService" class="service.impl.orderAddressServiceImpl"></bean>
+</beans>
